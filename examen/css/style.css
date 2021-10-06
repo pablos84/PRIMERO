@@ -1,0 +1,166 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #efefef;
+}
+
+header {
+  background-color: #364550;
+  color: white;
+  padding: 1rem 1rem;
+}
+
+header h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+header h4 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.container {
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.form-register {
+  width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "Calibri";
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.form-register .boton {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.controlador {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: "calibri";
+  font-size: 18px;
+  color: white;
+}
+
+section article {
+  background-color: #ffff;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0;
+  text-align: center;
+}
+
+section article a {
+  margin: 1rem;
+  color: black;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+section article:hover {
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+tr,
+td {
+  border: solid 1px #eee;
+  padding: 5px;
+  text-align: center;
+}
+
+th {
+  background-color: #364550;
+  color: white;
+  text-align: center;
+}
+
+div a {
+  background-color: #364560;
+  color: white;
+  padding: 1rem 1rem;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+div b {
+  background-color: #364560;
+  color: white;
+  padding: 1rem 1rem;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+div a:hover {
+  color: black;
+  background-color: slategray;
+}
+
+.elegido {
+  color: black;
+  background-color: slategray;
+}
+
+footer {
+  position: relative;
+  bottom: 0%;
+  height: 30px;
+  background-color: #222;
+  padding: 2rem;
+  color: white;
+}
+
+footer section {
+  float: right;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  transition: color 0.3s ease;
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: cornflowerblue;
+}
